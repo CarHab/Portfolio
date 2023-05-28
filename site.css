@@ -1,5 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+:root {
+    --body-color: #181A1E;
+    --body-color-secondary: #037171;
+    --btn-color: #00B9AE;
+    --link-color: #02C3BD;
+}
+
 html {
     font-size: 18px;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    background-color: var(--body-color);
+    color: aliceblue;
+}
+
+nav,
+.footer {
+    background-color: var(--body-color-secondary);
+    color: aliceblue;
+}
+
+a {
+    color: var(--link-color);
+}
+
+.nav-link {
+    color: aliceblue !important;
+}
+
+.nav-link.active {
+    color: black !important;
+}
+
+.figure-caption {
+    color: rgba(240, 248, 255, 0.562);
+}
+
+.btn-primary {
+    background-color: var(--body-color-secondary);
+    border: var(--body-color-secondary) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--btn-color);
 }
 
 .devicon {

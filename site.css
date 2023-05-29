@@ -27,6 +27,12 @@ a {
     color: var(--link-color);
 }
 
+kbd {
+    margin-left: 10px;
+    background-color: var(--btn-color);
+    color: black;
+}
+
 .nav-link {
     color: aliceblue !important;
 }

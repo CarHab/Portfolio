@@ -27,14 +27,24 @@ a {
     color: var(--link-color);
 }
 
+a:hover{
+    color: var(--btn-color);
+
+}
+
 kbd {
     margin-left: 10px;
-    background-color: var(--btn-color);
+    background-color: white;
     color: black;
+    font-weight: bold;
 }
 
 .nav-link {
     color: aliceblue !important;
+}
+
+.nav-link:hover {
+    color: #003d3d !important;
 }
 
 .nav-link.active {
@@ -57,4 +67,11 @@ kbd {
 .devicon {
     max-width: 75px;
     margin: 0.5rem;
+}
+
+.footer-fb {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
 }
